@@ -76,7 +76,7 @@
   <ItemGroup>
     <Compile Include="ClassFactory.cs" />
     <Compile Include="SwitchDriver\SwitchDriver.cs" />
-    <Compile Include="SwitchDriver\SwitchHardware..cs" />
+    <Compile Include="SwitchDriver\SwitchHardware.cs" />
     <Compile Include="GarbageCollection.cs" />
     <Compile Include="LocalServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

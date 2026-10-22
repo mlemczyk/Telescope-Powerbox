@@ -129,7 +129,7 @@ void dealWithHTTP(PublishableState& publishableState)
                     // THIRD line of the body (after <!DOCTYPE HTML> and <html>), as
                     // exactly these 16 space-separated values in this order: the
                     // driver splits the body on '\n', takes line 2 and parses it by
-                    // position (SwitchHardware..cs, updateValues()). Nothing may wrap
+                    // position (SwitchHardware.cs, updateValues()). Nothing may wrap
                     // it, so browsers show it as a row of numbers above the page.
                     char dataLine[200];
                     snprintf(dataLine, sizeof(dataLine), "%f %f %f %f %f %f %f %f %f %f %f %d %d %d %d %lu",

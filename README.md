@@ -2,9 +2,9 @@
 
 By Michal Lemczyk.
 
-The schematic, firmware and driver for an ASCOM-compatible telescope power
-box: a temperature, voltage and current meter and a two-channel dew-heater
-controller. It measures the rig's power rails and the conditions around the
+The power-distribution block diagram, firmware and driver for an
+ASCOM-compatible telescope power box: a temperature, voltage and current meter
+and a two-channel dew-heater controller. It measures the rig's power rails and the conditions around the
 telescope, keeps the optics above the dew point, and reports everything to a
 simple web page and over ASCOM, so imaging software can log it or act on it.
 
@@ -94,7 +94,7 @@ each probe's difference from ambient. Switches named `---` are spacers.
 
 **Driver** (Windows, with the [ASCOM Platform](https://ascom-standards.org/)
 installed): open `ASCOM_driver/PowerBox/PowerBox.sln` in Visual Studio, set the
-same address in `SwitchHardware..cs` (`updateValues()`), build, and run the
+same address in `SwitchHardware.cs` (`updateValues()`), build, and run the
 `.exe` once with `/regserver` as administrator to register it. It then appears
 in any ASCOM client's chooser as a Switch device.
 

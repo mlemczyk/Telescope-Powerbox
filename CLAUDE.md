@@ -12,7 +12,7 @@ Firmware (Arduino UNO R4 WiFi, PlatformIO) and an ASCOM Switch driver (C#,
   `WebServer.cpp` and had to be rewritten before the repo could be public.
   Before any commit, check that no SSID or password literal is staged.
 - **The data line is a contract between the two halves.** The driver
-  (`SwitchHardware..cs`, `updateValues()`) splits the page body on `\n`, takes
+  (`SwitchHardware.cs`, `updateValues()`) splits the page body on `\n`, takes
   line 2 (the third line, right after `<!DOCTYPE HTML>` and `<html>`) and
   parses 16 space-separated values by position. Change the firmware's
   `dataLine` and the driver's parser together, in the same order, or the driver
