@@ -1,0 +1,12 @@
+# Wi-Fi credentials: copy Arduino/PowerBox/src/arduino_secrets.example.h
+arduino_secrets.h
+
+# Visual Studio / .NET build output and IDE state
+.vs/
+bin/
+obj/
+*.suo
+*.user
+
+# PlatformIO
+.pio/
